@@ -49,6 +49,16 @@ This landing page has been thoroughly tested and optimized for various screen si
 
 ---
 
+## ✅ Testing & Compatibility
+
+- Tested on Chrome, Firefox, Microsoft Edge.
+- Mobile responsiveness tested on:
+  - Samsung Galaxy A series (320px)
+  - iPhone SE and iPhone 14 (375px–430px)
+  - Tablets (768px+)
+  - Desktop (1920px and down)
+- CSS `clamp()` used for font resizing between 200px–1200px screen widths.
+
 ## 📁 File Structure
 
 - TaskHero-Landing-Page/
