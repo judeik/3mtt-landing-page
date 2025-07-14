@@ -127,6 +127,29 @@ body {
   text-decoration: underline;
 }
 
+/* ====================================
+  Social Icons
+======================================*/
+
+.social-icons {
+  margin: 15px 0;
+  text-align: center;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+  color: #ccc;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
 /* (Unused) Emoji Icon Styling — Safe to Remove Since Not Used */
 /* .icon {
   font-size: 2.5rem;
