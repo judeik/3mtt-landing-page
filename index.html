@@ -2,47 +2,75 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Fictional Product Landing Page</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Responsive landing page for TaskHero - a fictional productivity app." />
+  <title>TaskHero - Boost Your Productivity</title>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <!-- Header / Hero Section -->
+
+  <!-- =======================
+    HERO SECTION
+  ======================== -->
   <header class="hero">
     <div class="container">
       <h1>Boost Your Productivity with TaskHero</h1>
-      <p class="subheadline">Organize, track, and complete your tasks effortlessly with our all-in-one solution.</p>
+      <p class="subheadline">
+        Organize, track, and complete your tasks effortlessly with our all-in-one solution.
+      </p>
       <a href="#" class="cta-button">Get Started Now</a>
     </div>
   </header>
 
-  <!-- Features Section -->
-  <section class="features">
+  <!-- =======================
+    FEATURES SECTION
+  ======================== -->
+  <section class="features" aria-label="Key Features">
     <div class="container">
+
+      <!-- Feature 1 -->
       <div class="feature">
-        <img src="images/Data-Entry-Virtual-Assistant.webp" alt="Organize icon" />
+        <img src="images/Data-Entry-Virtual-Assistant.webp" alt="Icon representing task organization" />
         <h3>Easy Organization</h3>
         <p>Create to-do lists, categorize tasks, and set deadlines with ease.</p>
       </div>
+
+      <!-- Feature 2 -->
       <div class="feature">
-        <img src="images/consultancy.jpg" alt="Track icon" />
+        <img src="images/consultancy.jpg" alt="Icon representing real-time tracking" />
         <h3>Real-Time Tracking</h3>
         <p>Monitor your progress and receive timely reminders on important tasks.</p>
       </div>
+
+      <!-- Feature 3 -->
       <div class="feature">
-        <img src="images/binding.png" alt="Collaborate icon" />
+        <img src="images/binding.png" alt="Icon representing team collaboration" />
         <h3>Team Collaboration</h3>
         <p>Work together seamlessly with your team and share updates instantly.</p>
       </div>
+
     </div>
   </section>
 
-  <!-- Footer Section -->
+  <!-- =======================
+    FOOTER SECTION
+  ======================== -->
   <footer class="footer">
     <div class="container">
-      <p>Email: support@taskhero.com | Phone: +123-456-7890</p>
+      <p>
+        <!-- Contact Info -->
+        <span role="img" aria-label="email">📧</span> Email:
+        <a href="mailto:judeojobor@gmail.com" class="footer-link">judeojobor@gmail.com</a> |
+
+        <span role="img" aria-label="phone">📞</span> Phone: +234-8061-599-859
+      </p>
+
+      <!-- Static Year -->
       <p>&copy; 2025 TaskHero. All rights reserved.</p>
     </div>
   </footer>
+
 </body>
 </html>

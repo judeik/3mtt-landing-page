@@ -1,52 +1,88 @@
-# 🌐 3MTT Landing Page Project
+# 🌐 3MTT Responsive Landing Page Project
 
-This repository contains a responsive landing page built with **HTML** and **CSS** for the **3MTT Program** assignment. The goal is to demonstrate proficiency in semantic HTML structure, responsive design using Flexbox, and accessibility best practices.
+This repository features a responsive landing page developed using **HTML5** and **CSS3** as part of the **3 Million Technical Talents (3MTT) Program** assignment. The project emphasizes best practices in semantic HTML, Flexbox layout, responsive design, and accessibility — all without using JavaScript.
 
 ---
 
-## 📌 Project Objective
+## 🚀 TaskHero — Boost Your Productivity
 
-To design and develop a responsive landing page for a fictional product named **TaskHero**. The page is fully mobile-friendly and includes all essential UI sections:
+**TaskHero** is a fictional productivity web app. This landing page was designed to promote the product in a clean, modern, and responsive format. It serves as a demonstration of core front-end development skills.
 
-- Hero Section (headline, subheadline, and call-to-action)
-- Features Section (3-column responsive layout with icons and descriptions)
-- Footer Section (contact info and copyright)
+---
+
+## 🎯 Project Objective
+
+To design and build a fully responsive landing page that includes:
+
+- ✅ A Hero Section with headline, subheadline, and a call-to-action (CTA) button
+- ✅ A Features Section with a three-column layout showcasing core product features
+- ✅ A Footer Section with contact information and static copyright
 
 ---
 
 ## 🛠️ Technologies Used
 
-- HTML5 (Semantic Elements)
-- CSS3 (Flexbox, Media Queries)
+- **HTML5** (semantic structure)
+- **CSS3** (Flexbox, media queries, clamp, accessibility)
 - No JavaScript
+- Responsive Web Design techniques
 
 ---
 
-## 📱 Responsive Design
+## 📱 Responsiveness
 
-This landing page is fully responsive and works on all screen sizes:
+This landing page has been thoroughly tested and optimized for various screen sizes including:
 
-- Desktop
-- Tablet
-- Mobile
-
----
-
-## 💡 Features
-
-- Clean and modern layout
-- Mobile-first design
-- Well-commented, readable code
-- Accessibility-friendly structure
-- Reusable CSS components
+- 🖥️ Desktop (large screens)
+- 📱 Mobile (as small as 200px)
+- 💻 Tablets
 
 ---
 
-## 🔍 Preview
+## 🔧 Key Features
 
-![Landing Page Preview](https://via.placeholder.com/800x400?text=TaskHero+Landing+Page+Preview)
+- ✅ Mobile-first responsive layout using Flexbox
+- ✅ Scales gracefully from ultra-small devices (200px) to desktops
+- ✅ Clean, modern UI with gradient hero section
+- ✅ Fully accessible markup using semantic HTML and alt text
+- ✅ Lightweight — no JavaScript or frameworks required
 
 ---
 
 ## 📁 File Structure
 
+- TaskHero-Landing-Page/
+- │
+- ├── index.html # Main HTML file
+- ├── css/
+- │ └── style.css # External CSS file
+- ├── images
+- └── README.md # Project documentation
+  
+## 🧠 Author
+
+**👤 Ojobor, Jude Ikechukwu**  
+
+- 💼 3MTT Program Trainee
+- 💻 Software Developer  
+- 📧 [judeojobor@gmail.com](mailto:judeojobor@gmail.com)
+- 📱 WhatsApp or Call: +234-806-1599-859
+
+---
+
+## 📎 License
+
+This project is provided for **educational** and **portfolio** use.  
+Feel free to fork, learn, or adapt with credit.
+
+---
+
+## 📌 How to Use
+
+1. **Clone** the repository or download the ZIP.
+2. Open `index.html` in your browser.
+3. View the site across various screen sizes to see responsiveness behavior in action.
+
+---
+
+> 🛠️ Built as part of a **3MTT (3 Million Technical Talents)** training assignment to showcase responsive HTML/CSS skills.

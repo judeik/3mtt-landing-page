@@ -1,4 +1,6 @@
-/* Base Reset and Typography */
+/* =======================================
+   BASE RESET AND TYPOGRAPHY
+======================================= */
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +12,7 @@ body {
   line-height: 1.6;
   color: #333;
   background-color: #f9f9f9;
+  overflow-x: hidden; /* Prevents horizontal scroll on small screens */
 }
 
 .container {
@@ -18,7 +21,9 @@ body {
   margin: auto;
 }
 
-/* Hero Section Styling */
+/* =======================================
+   HERO SECTION
+======================================= */
 .hero {
   background: linear-gradient(to right, #4e54c8, #8f94fb);
   color: white;
@@ -27,13 +32,16 @@ body {
 }
 
 .hero h1 {
-  font-size: 2.5rem;
+  font-size: clamp(1.2rem, 5vw, 2.5rem); /* Responsive heading */
   margin-bottom: 20px;
+  word-wrap: break-word;
+  padding: 0 10px;
 }
 
 .subheadline {
-  font-size: 1.2rem;
+  font-size: clamp(0.9rem, 4vw, 1.2rem);
   margin-bottom: 30px;
+  padding: 0 10px;
 }
 
 .cta-button {
@@ -44,6 +52,10 @@ body {
   border-radius: 30px;
   font-weight: bold;
   text-decoration: none;
+  font-size: clamp(0.8rem, 3vw, 1rem);
+  white-space: normal;
+  word-wrap: break-word;
+  text-align: center;
   transition: background 0.3s;
 }
 
@@ -51,7 +63,9 @@ body {
   background-color: #ddd;
 }
 
-/* Features Section Styling */
+/* =======================================
+   FEATURES SECTION
+======================================= */
 .features {
   padding: 60px 0;
   background-color: #fff;
@@ -79,6 +93,8 @@ body {
 
 .feature img {
   margin-bottom: 15px;
+  max-width: 100%;
+  height: auto;
 }
 
 .feature h3 {
@@ -86,7 +102,13 @@ body {
   margin-bottom: 10px;
 }
 
-/* Footer Styling */
+.feature p {
+  font-size: 1rem;
+}
+
+/* =======================================
+   FOOTER SECTION
+======================================= */
 .footer {
   background-color: #2c2c2c;
   color: #ccc;
@@ -95,7 +117,27 @@ body {
   font-size: 0.95rem;
 }
 
-/* Responsive Design */
+.footer-link {
+  /* color: #ccc; */
+  color: #e0e0e0;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+/* (Unused) Emoji Icon Styling — Safe to Remove Since Not Used */
+/* .icon {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+} */
+
+/* =======================================
+   RESPONSIVE DESIGN
+======================================= */
+
+/* Tablet and Below */
 @media (max-width: 768px) {
   .features .container {
     flex-direction: column;
@@ -107,6 +149,57 @@ body {
   }
 
   .hero h1 {
-    font-size: 2rem;
+    font-size: clamp(1rem, 6vw, 2rem);
+  }
+}
+
+/* Small Devices (400px and Below) */
+@media (max-width: 400px) {
+  .features .container {
+    gap: 15px;
+  }
+
+  .feature {
+    padding: 15px;
+  }
+
+  .feature h3 {
+    font-size: 1rem;
+  }
+
+  .feature p {
+    font-size: 0.9rem;
+  }
+
+  .hero {
+    padding: 40px 0;
+  }
+
+  .footer {
+    font-size: 0.8rem;
+    padding: 20px 10px;
+  }
+}
+
+/* Ultra Small Devices (300px and Below) */
+@media (max-width: 300px) {
+  .cta-button {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .hero h1,
+  .subheadline {
+    padding: 0 5px;
+  }
+
+  .feature img {
+    width: 50px;
+    height: auto;
+  }
+
+  .container {
+    width: 95%;
   }
 }
